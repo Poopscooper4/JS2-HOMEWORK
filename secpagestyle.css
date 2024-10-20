@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #242742;
+}
+
+.container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 46px 64px;
+    background-color: white;
+    border-radius: 36px;
+    width: 504px;
+    height: 520px;
+
+}
+.svgdiv{
+    margin-bottom: 40px
+}
+.textdiv{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.textdiv h1 {
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;
+    color: #242742;
+}
+
+.textdiv p {
+    color: #242742;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+button{
+    margin-top: 40px;
+    width: 376px;
+height: 56px;
+color: white;
+background: #242742;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+border-radius: 8px;
+line-height: 150%;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .container {
+        padding: 0px;
+        gap: 40px;
+        padding-top: 50%;
+        width: 327px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .textdiv {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .textdiv h1{
+        font-size: 40px;
+    }
+    .svgdiv{
+        margin-bottom: 0px;
+    }
+
+    button {
+        margin-top: 200px;
+        background: #242742;
+        width: 327px;
+        height: 56px;
+        color: white;
+        border-radius: 8px;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 150%;
+    }
+}
